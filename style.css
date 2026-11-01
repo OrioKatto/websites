@@ -388,7 +388,7 @@ body::after {
 
 @media (max-width: 600px) {
   .header-gif {
-    width: 70px;
+    width: 120px;
   }
   .level-card {
     grid-template-columns: 1fr;
@@ -409,4 +409,10 @@ body::after {
     font-size: 0.8rem;
     padding: 0.4rem 1rem;
   }
+  .aredl-position .date-beaten {
+  position: static;
+  display: block;
+  text-align: center;
+  margin-top: 0.3rem;
+}
 }
